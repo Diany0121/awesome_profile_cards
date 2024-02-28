@@ -1,0 +1,89 @@
+.fieldset {
+  &__boxcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--buttonone {
+      background-color: $color-dull-orange;
+      color: $color-white-two;
+      font-family: $font-OpenSans;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      text-align: center;
+      width: 199px;
+      height: 47px;
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      align-items: center;
+      &:hover {
+        background-color: $color-white-two;
+        color: $color-dull-orange;
+        border: 1px solid $color-dull-orange;
+      }
+    }
+  }
+
+  &__createdcard {
+    border-top: 1.5px solid $color-white-three;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    &--url {
+      color: $color-dull-orange;
+      font-size: 1.2rem;
+      font-family: $font-OpenSans;
+      font-weight: bold;
+      text-align: justify;
+    }
+    &--title {
+      font-family: $font-OpenSans;
+      color: $color-gunmetal;
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-top: 15px;
+
+      @media (min-width: 768px) {
+        font-size: 1.3rem;
+      }
+    }
+
+    &--buttontwo {
+      background-color: black;
+      color: $color-white-two;
+      font-size: 1.8rem;
+      width: 170px;
+      height: 40px;
+      padding-bottom: 10px;
+      padding-top: 5px;
+      border-radius: 20px;
+      border: none;
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      align-items: center;
+      text-decoration: none;
+      &:hover {
+        border: 5px solid;
+      }
+    }
+  }
+  &__errorcard {
+    padding: 10px;
+    font-family: $font-OpenSans;
+    font-size: 1.4rem;
+  }
+}
+
+.backgroundgrey {
+  background-color: $color-button-card;
+}
