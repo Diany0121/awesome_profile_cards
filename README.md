@@ -12,7 +12,7 @@ Bienvenido a la aplicación de creación de tarjetas personalizadas de trabajo. 
 
 ## Instrucciones de Uso
 
-1. Accede a la página principal de la aplicación: (https://avispas.github.io/project-promo-V-module-2-team-1/)
+1. Accede a la página principal de la aplicación: (https://diany0121.github.io/awesome_profile_cards)
 2. Llena el formulario con la información solicitada.
 3. Haz clic en el botón de creación para generar tu tarjeta personalizada.
 4. ¡Comparte tu tarjeta con tus contactos profesionales y destaca tu perfil laboral!
@@ -24,7 +24,7 @@ Bienvenido a la aplicación de creación de tarjetas personalizadas de trabajo. 
 1. Clona el repositorio o descarga el código.
 
    ```bash
-   https://github.com/Avispas/project-promo-V-module-2-team-1.git
+   https://github.com/Diany0121/awesome_profile_cards.git
    ```
 
 2. El proyecto hay que arrancarlo cada vez que te pongas a programar. Para ello ejecuta el comando:
@@ -46,18 +46,11 @@ npm run dev
 
 ## Autor
 
-- Angela Avila
 - Dianelys Martinez
-- Gabriela Pinto 
-- Nadine Estrella
 
 ## Contribuir
 
 ¡Contribuciones son bienvenidas! Si encuentras algún error o tienes ideas para mejorar el proyecto, siéntete libre de abrir un issue o enviar un pull request.
-
-## Saber más
-
-- Presentación: https://view.genial.ly/65afec192e55750014d5c73d/presentation-awsome-profile-cards 
 
 
 ## Licencia
